@@ -14,7 +14,8 @@ re.sub(pattern, repl, string[, count])
 re.subn(pattern, repl, string[, count])
 '''
 
-# pattern可以理解为一个匹配模式，那么我们怎么获得这个匹配模式呢？很简单，我们需要利用re.compile方法就可以
+# pattern可以理解为一个匹配模式，那么我们怎么获得这个匹配模式呢？
+# 很简单，我们需要利用re.compile方法就可以
 pattern = re.compile('hello')
 
 '''
